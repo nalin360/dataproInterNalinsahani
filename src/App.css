@@ -1,18 +1,30 @@
 .App {
   text-align: center;
+  
+}
+.App ul {
+  position: relative;
+  list-style-type: none;
+  width: 30%;
+  left: 30%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App li {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: large;
+  font-weight: 700;
+  border: 2px solid #666668;
+  border-radius: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.App li:hover {
+  color: #ffffff;
+  
+  background: linear-gradient(145deg , #61dafb , #4c4f55)
 
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
