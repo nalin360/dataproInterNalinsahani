@@ -1,13 +1,11 @@
 .App {
   text-align: center;
-  
 }
 .App ul {
   position: relative;
   list-style-type: none;
   width: 30%;
   left: 30%;
-  
 }
 
 .App li {
@@ -21,9 +19,8 @@
 
 .App li:hover {
   color: #ffffff;
-  
-  background: linear-gradient(145deg , #61dafb , #4c4f55)
 
+  background: linear-gradient(145deg, #61dafb, #4c4f55);
 }
 .App-header {
   background-color: #282c34;
@@ -36,15 +33,32 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .App ul {
+    position: relative;
+    list-style-type: none;
+    width: 90%;
+    left: 0%;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .App ul {
+    position: relative;
+    list-style-type: none;
+    width: 60%;
+    left: 10%;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), 
+  landscape 800x480 phones (Android) */
+  .App ul {
+    position: relative;
+    list-style-type: none;
+    width: 60%;
+    left: 10%;
   }
 }
