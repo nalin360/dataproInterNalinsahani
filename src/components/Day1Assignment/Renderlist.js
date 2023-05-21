@@ -6,15 +6,15 @@ const itemlist = [
     'item 4',
     'item 5'
 ]
- function Renderlist(content) {
+ function Renderlist(prop) {
 
 const listitems = itemlist.map((item,i) => {
-    return <li key={i}>{item}</li>
+    return <li key={i}>{prop.content} {item}</li>
 });
     return (
     <div>
         <h1>Render list</h1>
-        <ul>{} {listitems}</ul>
+        <ul> {listitems}</ul>
     </div>
   )
 }
