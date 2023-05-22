@@ -1,0 +1,160 @@
+/*  */
+
+/*  */
+.trackerForm {
+  position: relative;
+  width: 60%;
+  /* height: 80vh; */
+  left: 20%;
+  border-bottom: 1px solid #696565;
+  /* border-radius: 10px; */
+}
+
+.trackerForm form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.trackerForm input {
+  appearance: none;
+  margin: 10px;
+  border: 0;
+  font-family: inherit;
+  padding: 11px 12px 0 12px;
+  height: 36px;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgba(#000, 0.02);
+  box-shadow: inset 0 -1px 0 rgba(#000, 0.3);
+  color: #000;
+  transition: all 0.15s ease;
+}
+
+.trackerForm textarea {
+  appearance: none;
+  margin: 10px;
+  border: 0;
+  font-family: inherit;
+  padding: 16px 12px 0 12px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 400;
+  background: rgba(#000, 0.02);
+  box-shadow: inset 0 -1px 0 rgba(#000, 0.3);
+  color: #000;
+  transition: all 0.15s ease;
+}
+.trackerForm form label {
+  justify-content: flex-start;
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+.trackerForm button {
+  color: #f5f5f5;
+  border-radius: 28px;
+  text-decoration: none;
+  font-size: large;
+  background-image: linear-gradient(
+    to right bottom,
+    #0a5150,
+    #00616f,
+    #007093,
+    #007cb6,
+    #4484d4
+  );
+  width: auto;
+  margin: 0.3rem;
+  padding: 0.3rem;
+}
+
+.trackerForm button:hover {
+  background-image: linear-gradient(
+    to left top,
+    #0a5150,
+    #00616f,
+    #007093,
+    #007cb6,
+    #4484d4
+  );
+}
+
+/* filter and  li  item  */
+.listitems {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  position: relative;
+  width: 50%;
+  /* height: 80vh; */
+  left: 23%;
+  /* border-top: 2px solid #05744f;
+  border-bottom: 2px solid #05744f;
+  border-radius: 2px; */
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.listitems:hover {
+    background: rgba(20, 19, 19, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(161, 155, 155, 0.3);
+}
+.listitems ul {
+  position: relative;
+  list-style-type: none;
+  width: 100%;
+}
+
+.bttn {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  left: 80%;
+  bottom: 27%;
+}
+.listitems button {
+  /* appearance: none; */
+  position: relative;
+  border: 0;
+  border-radius: 0.25rem;
+  background: #1e88e5;
+  color: white;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  cursor: pointer;
+  /* left: 20%; */
+}
+
+/* *********************** toggle ***********************  */
+.li-toggle {
+  text-decoration: line-through;
+}
+
+/* listitems  */
+.listitems li {
+  position: relative;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.listitems :hover {
+  color: #242222;
+  /* background: linear-gradient(145deg, #c3e9f3, #b8b9b9); */
+}
