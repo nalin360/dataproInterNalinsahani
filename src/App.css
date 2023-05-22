@@ -1,27 +1,31 @@
 .App {
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right top, 
+    #08fffd, #00ffd8, #2efca7, #72f66b, #a8eb12);
   text-align: center;
+  height: 100vh;
 }
-.App ul {
+/* .App ul {
   position: relative;
   list-style-type: none;
   width: 30%;
   left: 30%;
-}
+} */
 
-.App li {
+/* .App li {
   padding: 1rem;
   margin: 1rem;
   font-size: large;
   font-weight: 700;
   border: 2px solid #666668;
   border-radius: 2px;
-}
+} */
 
-.App li:hover {
+/* .App li:hover {
   color: #ffffff;
-
   background: linear-gradient(145deg, #61dafb, #4c4f55);
-}
+} */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,30 +39,30 @@
 
 @media (max-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-  .App ul {
+  /* .App ul {
     position: relative;
     list-style-type: none;
     width: 90%;
     left: 0%;
-  }
+  } */
 }
 
 @media (max-width: 480px) {
   /* smartphones, Android phones, landscape iPhone */
-  .App ul {
+  /* .App ul {
     position: relative;
     list-style-type: none;
     width: 60%;
     left: 10%;
-  }
+  } */
 }
 @media (max-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), 
   landscape 800x480 phones (Android) */
-  .App ul {
+  /* .App ul {
     position: relative;
     list-style-type: none;
     width: 60%;
     left: 10%;
-  }
+  } */
 }
