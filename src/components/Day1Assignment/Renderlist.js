@@ -6,7 +6,7 @@ const itemlist = [
     'item 4',
     'item 5'
 ]
- function Renderlist(prop) {
+function Renderlist(prop) {
 
 const listitems = itemlist.map((item,i) => {
     return <li key={i}>{prop.content} {item}</li>
